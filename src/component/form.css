@@ -1,0 +1,92 @@
+.myform{
+    padding: 5px;
+}
+.header{
+    padding: 1px;
+    border: 2px groove rgba(197, 182, 182, 0.568);
+}
+.header button{
+    border: none;
+    margin: 1px;
+    color: gray;
+    font-size: 1rem;
+    padding: 3px 5px;
+    border-radius:2px;
+    font-weight: bolder;
+    vertical-align: middle;
+    background-color: #ccc;
+}
+.basic{
+    font-size: small;
+    font-weight: 500;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.basic .left{
+    /* margin: 0px 0px;   */
+    width: fit-content;
+}
+.form-control{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-control div{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+.form-control label{
+    margin-right: 100px;
+}
+.form-control input , .form-control select,.tab-control input,.tab-control select{
+    border: none;
+    padding: 5px;
+    margin: 0px 2px;
+    border-radius: 3px;
+    background-color: #eee;
+    box-shadow: 0px 0px 5px 0px gray inset;
+}
+.form-control span,.tab-control span{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    vertical-align: middle;
+    margin: 0px 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    background-color: #eee;
+}
+.basic .right{
+    margin: 0px 50px;  
+    width:fit-content;
+}
+.tabs{
+    padding: 10px;
+    border: 2px groove rgba(197, 182, 182, 0.568);
+}
+.tab-control{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab-control>div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.tab-control>div>div{
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+}
+.tab-control label{
+    font-size: small;
+    font-weight: 500;
+}
